@@ -1,0 +1,15 @@
+<apex:page doctype="html-5.0" controller="CustomLandingController" action="{!forwardToCustomAuthPage}" showheader="false" sidebar="false" standardstylesheets="false"> <apex:stylesheet value="{!URLFOR($Resource.Bootstrap, 'dist/css/bootstrap.min.css')}" /> <apex:includescript value="{!URLFOR($Resource.Bootstrap, 'dist/js/bootstrap.min.js')}" />
+<div>
+    <div>
+        <h1>
+            Hello, Apex Systems!
+        </h1>
+        <p>
+            ...
+        </p>
+        <p>
+            <a>Click me!</a>
+        </p>
+    </div>
+</div>
+</apex:page>
